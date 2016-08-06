@@ -15,5 +15,6 @@ C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Droid\obj\Debug\res\values\strings.xm
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Droid\obj\Debug\res\drawable\icon.png
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Droid\obj\Debug\R.cs.flag
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Droid\obj\Debug\uploadflags.txt
+C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Droid\bin\Debug\MyTunes.Shared.dll.mdb
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Droid\obj\Debug\MyTunes.Droid.dll.mdb
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Droid\bin\Debug\MyTunes.Droid.dll.mdb
