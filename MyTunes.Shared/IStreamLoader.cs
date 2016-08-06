@@ -9,6 +9,6 @@ namespace MyTunes.Shared
 {
     public interface IStreamLoader
     {
-        Stream GetStreamForFilename(string FileName);
+        Stream GetStreamForFilename(string filename);
     }
 }
