@@ -4,6 +4,7 @@ C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Shared\bin\Debug\Newtonsoft.Json.dll
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Shared\bin\Debug\Newtonsoft.Json.xml
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Shared\obj\Debug\MyTunes.Shared.dll
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Shared\obj\Debug\MyTunes.Shared.pdb
+C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Shared\obj\Debug\MyTunes.Shared.csprojResolveAssemblyReference.cache
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Shared\obj\Debug\MyTunes.Shared.dll.mdb
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Shared\bin\Debug\MyTunes.Shared.dll.mdb
 C:\Git\Xamarin\Training\Xam110-Ex2\MyTunes.Shared\obj\Debug\MyTunes.Shared.dll.mdb
