@@ -18,7 +18,10 @@ namespace MyTunes
         {
             using (var reader = new StreamReader(OpenData()))
             {
-                return JsonConvert.DeserializeObject<List<Song>>(await reader.ReadToEndAsync());
+                var songsFromStream = await reader.ReadToEndAsync();
+                var deserializedSongs = JsonConvert.DeserializeObject<List<Song>>(songsFromStream);
+                return deserializedSongs;
+                //return JsonConvert.DeserializeObject<List<Song>>(await reader.ReadToEndAsync());
             }
         }
 

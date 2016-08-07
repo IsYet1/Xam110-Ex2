@@ -8,6 +8,19 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <ListView ItemsSource="{Binding}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock FontSize="20" Text="{Binding Name}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding Artist}" />
+                            <TextBlock Text=" - " />
+                            <TextBlock Text="{Binding Album}" />
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>

@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <AppBar></AppBar>
         <ListView ItemsSource="{Binding}">
             <ListView.ItemTemplate>
                 <DataTemplate>
