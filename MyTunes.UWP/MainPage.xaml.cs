@@ -17,8 +17,9 @@ namespace MyTunes.UWP
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            SongLoader.Loader = new StreamLoader();
-            this.DataContext = await SongLoader.Load();
+            //SongLoader.Loader = new StreamLoader();
+            var songLoader = new SongLoader(new StreamLoader());
+            this.DataContext = await songLoader.Load();
 
             base.OnNavigatedTo(e);
         }

@@ -8,13 +8,22 @@ using MyTunes.Shared;
 
 namespace MyTunes
 {
-	public static class SongLoader
+	public class SongLoader
 	{
 		const string Filename = "songs.json";
 
-        public static IStreamLoader Loader { get; set; }
+        public IStreamLoader Loader { get; set; }
 
-        public static async Task<IEnumerable<Song>> Load()
+        public SongLoader(IStreamLoader Loader)
+        {
+            if (Loader == null)
+            {
+                throw new Exception("Must set platform Loader before calling Load.");
+            }
+            this.Loader = Loader;
+        }
+
+        public async Task<IEnumerable<Song>> Load()
         {
             using (var reader = new StreamReader(OpenData()))
             {
@@ -25,16 +34,9 @@ namespace MyTunes
             }
         }
 
-        private static Stream OpenData()
+        private Stream OpenData()
         {
-            if (Loader == null)
-            {
-                throw new Exception("Must set platform Loader before calling Load.");
-            }
-            else
-            {
                return Loader.GetStreamForFilename(Filename);
-            }
         }
 
     }
